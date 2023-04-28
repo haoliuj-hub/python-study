@@ -2,10 +2,6 @@
 数据类型转换
 """
 
-print("test")
-print("tes")
-print("sdf")
-
 # 1. int() 转换成整数
 # 2. float() 转换成浮点数
 # 3. str() 转换成字符串
@@ -16,61 +12,22 @@ print("sdf")
 # 8. bool() 转换成布尔值
 
 a = 100
-print(type(a))
+print(type(a), a)
 
 b = float(a)
-print(type(b))
+print(type(b), b)
 
 c = str(a)
-print(type(c))
+print(type(c), c)
 
 d = list(c)
-print(type(d))
+print(type(d), d)
 
 e = tuple(c)
-print(type(e))
-
-f = dict()
-print(type(f))
-
-g = set()
-print(type(g))
+print(type(e), e)
 
 h = bool(a)
-print(type(h))
-print(h)
+print(type(h), h)
 
-i = bool(0)
-print(type(i))
-print(i)
-
-j = bool(1)
-print(type(j))
-print(j)
-
-k = bool(-1)
-print(type(k))
-print(k)
-
-l = bool(0.0)
-print(type(l))
-print(l)
-
-m = bool(0.1)
-print(type(m))
-print(m)
-
-n = bool(0.0000001)
-print(type(n))
-print(n)
-
-o = bool(-0.0000001)
-print(type(o))
-print(o)
-
-p = bool(-0.0000000)
-print(type(p))
-print(p)
-
-
-
+float_num = 3.64
+print(int(float_num))
