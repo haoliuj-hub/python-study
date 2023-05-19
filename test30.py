@@ -18,3 +18,9 @@ if __name__ == '__main__':
 
 # import * 后只能使用__all__中的变量
 __all__ = ['test']
+
+from my_module1 import *
+
+add(1, 2)
+# import * 后只能使用__all__中的变量
+# sub(2, 3)
