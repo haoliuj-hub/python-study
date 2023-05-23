@@ -29,11 +29,11 @@ def load_file(file_name):
     return data_x, data_y
 
 
-yd_data_x, yd_data_y = load_file('resource/可视化案例数据/折线图数据/印度.txt')
+yd_data_x, yd_data_y = load_file('../../resource/可视化案例数据/折线图数据/印度.txt')
 
-jp_data_x, jp_data_y = load_file('resource/可视化案例数据/折线图数据/日本.txt')
+jp_data_x, jp_data_y = load_file('../../resource/可视化案例数据/折线图数据/日本.txt')
 
-us_data_x, us_data_y = load_file('resource/可视化案例数据/折线图数据/美国.txt')
+us_data_x, us_data_y = load_file('../../resource/可视化案例数据/折线图数据/美国.txt')
 
 # 折线图
 line = Line()
@@ -55,4 +55,4 @@ line.set_global_opts(
 )
 
 # 渲染数据
-line.render('resource/html/疫情.html')
+line.render('../../resource/html/疫情.html')

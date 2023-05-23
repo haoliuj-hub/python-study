@@ -22,4 +22,4 @@ line.set_global_opts(
 )
 
 # 渲染数据
-line.render('resource/html/line.html')
+line.render('../../resource/html/line.html')

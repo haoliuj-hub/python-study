@@ -2,9 +2,9 @@
 异常
 """
 try:
-    f = open("resource/测试3.txt", "r", encoding="utf-8")
+    f = open("../../resource/测试3.txt", "r", encoding="utf-8")
 except:
-    f = open("resource/测试3.txt", "w", encoding="utf-8")
+    f = open("../../resource/测试3.txt", "w", encoding="utf-8")
 
 try:
     1 / 0
@@ -33,10 +33,10 @@ else:
 
 # 异常finally
 try:
-    f = open("resource/测试4.txt", "r", encoding="utf-8")
+    f = open("../../resource/测试4.txt", "r", encoding="utf-8")
 except Exception as e:
     print("出现异常了")
-    f = open("resource/测试4.txt", "w", encoding="utf-8")
+    f = open("../../resource/测试4.txt", "w", encoding="utf-8")
 else:
     print("没有异常")
 finally:

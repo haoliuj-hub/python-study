@@ -42,4 +42,4 @@ timeline.add_schema(
 )
 
 # 绘图
-timeline.render('resource/html/时间线柱状图.html')
+timeline.render('../../resource/html/时间线柱状图.html')

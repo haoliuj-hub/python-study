@@ -39,4 +39,4 @@ map1.set_global_opts(
 )
 
 # 渲染数据
-map1.render('resource/html/疫情热力图.html')
+map1.render('../../resource/html/疫情热力图.html')

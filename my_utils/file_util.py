@@ -35,7 +35,7 @@ def append_to_file(file_name, data):
 
 
 if __name__ == '__main__':
-    print_file_info('resource/test.txt')
-    print_file_info('resource/测试.txt')
+    print_file_info('../../resource/test.txt')
+    print_file_info('../../resource/测试.txt')
 
-    append_to_file('resource/测试.txt', '你好')
+    append_to_file('../../resource/测试.txt', '你好')

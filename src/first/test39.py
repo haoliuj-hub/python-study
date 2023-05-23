@@ -14,10 +14,10 @@ data1 = [80, 90, 76, 60, 75, 40, 57]
 bar.add_yaxis('GPD', data1)
 
 # 绘图
-bar.render('resource/html/基础柱状图.html')
+bar.render('../../resource/html/基础柱状图.html')
 
 # 反转坐标轴
 bar.reversal_axis()
 
 # 绘图
-bar.render('resource/html/反转坐标轴.html')
+bar.render('../../resource/html/反转坐标轴.html')

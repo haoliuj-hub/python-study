@@ -5,7 +5,7 @@ from pyecharts.charts import Timeline, Bar
 from pyecharts.globals import ThemeType
 from pyecharts.options import LabelOpts, TitleOpts
 
-f = open('resource/可视化案例数据/动态柱状图数据/1960-2019全球GDP数据.csv', 'r', encoding='gbk')
+f = open('../../resource/可视化案例数据/动态柱状图数据/1960-2019全球GDP数据.csv', 'r', encoding='gbk')
 
 dict_data = dict()
 
@@ -49,4 +49,4 @@ for year in dict_data:
     )
     timeline.add(bar, year)
 
-timeline.render('resource/html/GDP动态时间线柱状图.html')
+timeline.render('../../resource/html/GDP动态时间线柱状图.html')

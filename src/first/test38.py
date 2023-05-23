@@ -28,7 +28,7 @@ city_map = {
     "济源市": "济源示范区"
 }
 
-f = open('resource/可视化案例数据/地图数据/疫情.txt', 'r', encoding='utf-8')
+f = open('../../resource/可视化案例数据/地图数据/疫情.txt', 'r', encoding='utf-8')
 data = f.read()
 f.close()
 
@@ -65,5 +65,5 @@ map1.set_global_opts(
 )
 
 # 渲染数据
-map1.render('resource/html/河南疫情地图.html')
+map1.render('../../resource/html/河南疫情地图.html')
 

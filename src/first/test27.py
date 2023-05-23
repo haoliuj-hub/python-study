@@ -4,7 +4,7 @@ python io操作
 import time
 
 # 1.文件操作
-f = open("resource/测试.txt", "r", encoding="utf-8")
+f = open("../../resource/测试.txt", "r", encoding="utf-8")
 print(type(f))
 
 # print(f.read(1))
@@ -30,14 +30,14 @@ for line in f:
 f.close()
 print("----------------")
 # 自动关闭
-with open("resource/测试.txt", "r", encoding="utf-8") as f2:
+with open("../../resource/测试.txt", "r", encoding="utf-8") as f2:
     print(f2.read())
 
 
 # 2.文件写入
 # w 覆盖写入
 # a 追加写入
-with open("resource/测试2.txt", "w", encoding="utf-8") as f3:
+with open("../../resource/测试2.txt", "w", encoding="utf-8") as f3:
     f3.write("hello world，水水水水")
     f3.flush()
 
